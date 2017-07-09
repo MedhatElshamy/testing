@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block head_title %}Contact || {{block.super}}{% endblock head_title %}
+
+
+{% block content %}
+<h2>Hello World From Contact!</h2>
+<a href='mailto:medhat.elshamy7@gmail.com'>Email Us</a>
+{% include 'snippets/nav.html' %}
+{% include 'snippets/sidebar.html' %}
+{% endblock content %}

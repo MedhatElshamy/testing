@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>{% block head_title %}Muypicky.com{% endblock head_title %}</title>
+{% include 'snippets/css.html' %}
+</head>
+<body>
+	<div class='container'>
+		<h1>Muypicky.com</h1>
+		{% block content %}
+		<h2>Base Hello World!</h2>
+		{% endblock content %}
+	</div>
+
+	{% include 'snippets/js.html' %}
+</body>
+
+</html>
